@@ -75,7 +75,7 @@ void spawnPipes() {
     }
   }
 
-  println("Currently, there are " + this.pipes.size() + " pipes");
+  //println("Currently, there are " + this.pipes.size() + " pipes");
 }
 
 

@@ -15,7 +15,7 @@ public static class Keyboard {
         keysDownAscii[key] = keyPressed;
       }
     }
-    println("Key " + key + " (" + keyCode + ") " + (keyPressed ? "pressed" : "released"));
+    //println("Key " + key + " (" + keyCode + ") " + (keyPressed ? "pressed" : "released"));
   }
 
   private static boolean[] keysDownCoded = new boolean[256];
